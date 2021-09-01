@@ -8,7 +8,7 @@ export const HomeScreen = () => {
 
     return (
         <View>
-            <Text>HomeScreen</Text>
+            <Text>HomeScreen!</Text>
             <Icon name="cloudy-night-outline" size={300}/>
         </View>
     )
