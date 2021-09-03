@@ -15,5 +15,35 @@ export const menuItems: MenuItem[] = [
         name: 'Switches',
         icon: 'toggle-outline',
         component: 'SwitchScreen'
-    }  
+    },
+    {
+        name: 'Alerts',
+        icon: 'alert-circle-outline',
+        component: 'AlertsScreen'
+    }, 
+    {
+        name: 'TextImputs',
+        icon: 'document-text-outline',
+        component: 'TextImputScreen'
+    },
+    {
+        name: 'Pull to refresh',
+        icon: 'refresh-outline',
+        component: 'PullToRefreshScreen'
+    },
+    {
+        name: 'Section list',
+        icon: 'list-outline',
+        component: 'CustomSectionListScreen'
+    },
+    {
+        name: 'Modal screen',
+        icon: 'copy-outline',
+        component: 'ModalScreen'
+    },
+    {
+        name: 'Infinite scroll',
+        icon: 'download-outline',
+        component: 'InfiniteScrollScreen'
+    }
 ]
