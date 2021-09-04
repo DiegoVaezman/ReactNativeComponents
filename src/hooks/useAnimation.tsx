@@ -18,12 +18,12 @@ export const useAnimation = () => {
         ).start(() => {/*aqui iría función cuando acaba la animación*/});
     }
 
-    const fadeOut = () => {
+    const fadeOut = (duration?: number) => {
         Animated.timing(
             opacity,
             {
                 toValue: 0,
-                duration: 0,
+                duration: duration,
                 useNativeDriver: true
             }
         ).start();
